@@ -1,0 +1,31 @@
+html > *{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    gap: 1px;
+
+}
+.container > *{
+    width: 71px;
+    height: 76px;
+    text-align: center;
+    border: 1px solid black;
+}
+#calculator{
+    width: 300px;
+    height: 450px;
+    border: 2px solid black;
+}
+#result{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.zero{
+    width: 144px;
+}
