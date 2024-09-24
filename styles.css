@@ -55,3 +55,15 @@ html > *{
     justify-content: center;
     margin-top: 50px;
 }
+.numBtn:active, .decimal:active{
+    background-color: #50505080;
+}
+.operator:active, .equal:active{
+    background-color: #FF950080;
+}
+.reset:active, .percentage:active, .plusMinus:active{
+   background-color: #D4D4D280; 
+}
+.btn{
+    cursor:pointer;
+}
