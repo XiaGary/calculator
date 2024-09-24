@@ -25,15 +25,15 @@ numberKeys.forEach((num) => num.addEventListener('click',function(){
         secondNum += num.textContent;
         result.textContent = secondNum;
     }
-}))
+}));
 operators.forEach((op) => op.addEventListener('click', function(){
     operator = op.textContent;
     result.textContent = operator;
-}))
+}));
 equal.addEventListener('click', function(){
     //Changes the string into a number used for calculation
    let num1 = parseFloat(firstNum) || 0;
-   let num2 = parseFloat(secondNum);
+   let num2 = parseFloat(secondNum) || 0;
    total = calculate(num1, operator, num2);
    result.textContent = total;
 
