@@ -5,18 +5,21 @@ html > *{
     display: flex;
     border: 1px solid black;
     flex-wrap: wrap;
-    gap: 1px;
-
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container > *{
-    width: 71px;
-    height: 76px;
+    width: 70px;
+    height: 70px;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 #calculator{
-    width: 300px;
-    height: 450px;
+    width: 298px;
+    height: 446px;
     border: 2px solid black;
 }
 #result{
@@ -25,7 +28,30 @@ html > *{
     align-items: center;
     justify-content: flex-end;
     padding-right: 20px;
+    font-size: 30px;
+    border: 2px solid black;
 }
 .zero{
+    border: 2px solid black;
     width: 144px;
+}
+.numBtn, .decimal{
+    background-color: #505050;
+    color: white;
+    font-size: 35px;
+}
+.operator, .equal{
+    background-color: #FF9500;
+    color: white;
+    font-size: 35px;
+}
+.reset,.percentage,.plusMinus{
+    background-color: #D4D4D2;
+    font-size: 35px;
+    color: black;
+}
+#calccont{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
